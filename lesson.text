@@ -1,0 +1,141 @@
+# Create a text file containing the list of 25 Java console project ideas organized by category.
+
+project_list = """\
+Java Console Project Ideas — Beginner to Intermediate
+
+----------------------------------------
+LEVEL 1: Foundational (Syntax, Loops, Conditionals)
+----------------------------------------
+1. Simple Calculator
+   - Take two numbers and an operator (+, -, *, /) and print the result.
+   - Covers: basic input/output, conditionals, arithmetic.
+
+
+----------------------------------------
+LEVEL 1: completed
+----------------------------------------
+   
+
+2. Temperature Converter
+   - Convert Celsius ↔ Fahrenheit ↔ Kelvin.
+   - Covers: user input, switch-case, methods.
+
+   ----------------------------------------
+LEVEL 1: completed
+----------------------------------------
+
+3. Number Guessing Game
+   - Program picks a random number (1–100); user keeps guessing until correct.
+   - Covers: loops, conditionals, Random, user input.
+
+
+----------------------------------------
+LEVEL 1: completed
+----------------------------------------
+
+
+4. Bank Interest Calculator
+   - Ask for amount, years, and interest rate → calculate total.
+   - Covers: basic math, formatted output.
+
+----------------------------------------
+LEVEL 2: Arrays, Loops, and Methods
+----------------------------------------
+5. Student Grade Tracker
+   - Input student names and marks → calculate average, highest, lowest.
+   - Covers: arrays, loops, methods.
+
+6. Library Book Manager (basic)
+   - Store titles and authors, allow searching by name.
+   - Covers: arrays, string operations.
+
+7. Inventory Tracker
+   - Add/remove items, show total stock value.
+   - Covers: arrays, loops, input validation.
+
+8. To-Do List App
+   - Let user add/remove/list tasks from a simple array.
+   - Covers: arrays, menu systems, user input.
+
+----------------------------------------
+LEVEL 3: Object-Oriented Programming (Classes, Inheritance, Encapsulation)
+----------------------------------------
+9. Employee Management System
+   - Create Employee class (name, salary, department), add/update/remove employees.
+   - Covers: OOP basics, arrays of objects.
+
+10. Bank Account Simulation
+    - Account class with deposit(), withdraw(), and balance check.
+    - Covers: encapsulation, methods, object interaction.
+
+11. Zoo Management System
+    - Classes: Park, Employee, Dino, etc.
+    - Covers: inheritance, composition, arrays of custom objects.
+
+12. Student Report Card System
+    - Calculate grades from multiple subjects and print a report.
+    - Covers: constructors, array of objects, encapsulation.
+
+13. Online Shopping Cart
+    - Classes: Product, CartItem, Customer.
+    - Covers: OOP, object relationships.
+
+----------------------------------------
+LEVEL 4: Collections (ArrayList, HashMap, etc.)
+----------------------------------------
+14. Phonebook Directory
+    - Store and search contacts using HashMap<String, String>.
+    - Covers: collections, map operations.
+
+15. Voting System
+    - Users can vote for candidates; show results and winner.
+    - Covers: collections, loops, counting.
+
+16. Library System (Improved)
+    - Use ArrayList<Book>; borrow/return books.
+    - Covers: ArrayList, encapsulation, object interaction.
+
+17. Expense Tracker
+    - Record and summarize monthly expenses.
+    - Covers: ArrayList, file reading/writing (optional).
+
+----------------------------------------
+LEVEL 5: Advanced Basics (Files, Exceptions, Recursion)
+----------------------------------------
+18. File-Based Note Saver
+    - Save notes to a text file, read them back later.
+    - Covers: file I/O (FileReader, FileWriter).
+
+19. Recursive Directory Size Calculator
+    - Recursively calculate total size of a folder.
+    - Covers: recursion, file handling.
+
+20. Quiz App
+    - Load questions from a file, ask the user, track score.
+    - Covers: file I/O, collections, control flow.
+
+----------------------------------------
+OPTIONAL CHALLENGE PROJECTS
+----------------------------------------
+21. Tic-Tac-Toe Game
+22. ATM Machine Simulation
+23. Hotel Booking System
+24. Mini Banking System (Multiple Accounts)
+25. Payroll Calculator
+
+----------------------------------------
+Tips for Learning
+----------------------------------------
+- Start with 1–2 simple ones per week.
+- Focus on writing code yourself, not copy-pasting.
+- Refactor projects: add methods, apply OOP, or switch arrays → ArrayList.
+- Debug intentionally and learn from errors.
+- Keep all projects in one folder (e.g., java-practice/) to track progress.
+"""
+
+# Save to a text file
+file_path = "/mnt/data/Java_Console_Project_Ideas.txt"
+with open(file_path, "w") as f:
+    f.write(project_list)
+
+file_path
