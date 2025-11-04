@@ -12,7 +12,7 @@ LEVEL 1: Foundational (Syntax, Loops, Conditionals)
 
 
 ----------------------------------------
-LEVEL 1: completed
+completed
 ----------------------------------------
    
 
@@ -20,8 +20,8 @@ LEVEL 1: completed
    - Convert Celsius ↔ Fahrenheit ↔ Kelvin.
    - Covers: user input, switch-case, methods.
 
-   ----------------------------------------
-LEVEL 1: completed
+----------------------------------------
+completed
 ----------------------------------------
 
 3. Number Guessing Game
@@ -30,13 +30,21 @@ LEVEL 1: completed
 
 
 ----------------------------------------
-LEVEL 1: completed
+completed
 ----------------------------------------
 
 
 4. Bank Interest Calculator
    - Ask for amount, years, and interest rate → calculate total.
    - Covers: basic math, formatted output.
+
+
+
+----------------------------------------
+completed
+----------------------------------------
+
+
 
 ----------------------------------------
 LEVEL 2: Arrays, Loops, and Methods
