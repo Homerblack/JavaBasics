@@ -1,4 +1,4 @@
-package JavaPractise.simpleCalculator;
+package src.JavaPractise.simpleCalculator;
 
 public class Numbers {
 

@@ -1,8 +1,8 @@
-package JavaPractise.bankIntrestCalculator;
+package src.JavaPractise.bankIntrestCalculator;
 
 import java.util.Scanner;
 
-import JavaPractise.utilities.Utility;
+import src.JavaPractise.utilities.Utility;
 
 public class IntrestCalculation{
 

@@ -1,5 +1,6 @@
-package JavaPractise.studentGradeTrakerSinjuku;
+package src.JavaPractise.studentGradeTrakerSinjuku;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class StudentGradeTrackerSinjukuMain {
@@ -16,22 +17,21 @@ public class StudentGradeTrackerSinjukuMain {
 
         Scanner scanner = new Scanner(System.in);
 
+        //getting the total number to students
         numOfStudents = StudentInfor.getRow(scanner, message1, message2);
-
         String[] students = new String[numOfStudents];
-
         // Setting name of a students
-
         for (int i = 0; i < students.length; i++) {
             System.out.println("plese put the name of student: ");
             String student = scanner.next();
             students[i] = student;
         }
 
+        //getting the subjects
         numOfsubjects = StudentInfor.getRow(scanner, message3, message2);
 
         String[] subjects = new String[numOfsubjects];
-
+        // Setting name of a students
         for (int i = 0; i < subjects.length; i++) {
             System.out.println("plese put the name of Subject: ");
             String subject = scanner.next();
@@ -44,7 +44,7 @@ public class StudentGradeTrackerSinjukuMain {
             System.out.println(sub);
         }
 
-        /// now this is all about 2d array
+        /// now this is to add the number obtained in the subject making a grid
 
         marks = new int[numOfStudents][numOfsubjects];
         // for getting all the value required for marks related to subjects
@@ -61,9 +61,10 @@ public class StudentGradeTrackerSinjukuMain {
             for (int j = 0; j < subjects.length; j++) {
                 System.out.print(marks[i][j] + " ");
             }
-            System.out.println(); // move to next line after each student
+            System.out.println();
         }
 
+        //displaying average  students marks
         double[] studentAverages = StudentInfor.calculateAverageOfStudents(students, subjects, marks);
 
         System.out.println("Average marks for each student:");
@@ -71,16 +72,29 @@ public class StudentGradeTrackerSinjukuMain {
             System.out.println(students[j] + ": " + studentAverages[j]);
         }
 
-
+        //displaying average subject marks
         double[] subjectAverages = StudentInfor.calculateAverageOfSubject(students, subjects, marks);
 
         System.out.println("Average marks for each subject:");
         for (int j = 0; j < subjects.length; j++) {
             System.out.println(subjects[j] + ": " + subjectAverages[j]);
         }
+        System.out.println("this is where the higest Start..............");
+        //displaying all the higest achivers and marks
+        List<String> maxAcheivers = StudentInfor.getMaxMarks(students, subjects, marks);
 
+        for (String max : maxAcheivers) {
+            System.out.println(max);
+        }
+        System.out.println("this is where the higest finish..............");
+        System.out.println("this is where the lowest starts..............");
 
-
+        //displaying all the lowest  achivers and marks
+        List<String> minAcheivers = StudentInfor.getLowScorers(students, subjects, marks);
+        for (String min : minAcheivers){
+            System.out.println(min);
+        }
+        System.out.println("this is where the lowest finish..............");
         scanner.close();
 
     }

@@ -1,8 +1,8 @@
-package JavaPractise.tempreatureConverter;
+package src.JavaPractise.tempreatureConverter;
 
 import java.util.Scanner;
 
-import JavaPractise.utilities.Utility;
+import src.JavaPractise.utilities.Utility;
 
 public class TempreatureConverter {
 

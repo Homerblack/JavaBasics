@@ -1,8 +1,8 @@
-package JavaPractise.numberGuessingGame;
+package src.JavaPractise.numberGuessingGame;
 
 import java.util.Scanner;
 
-import JavaPractise.utilities.Utility;
+import src.JavaPractise.utilities.Utility;
 
 public class NumberGuessing {
     public static void main(String[] args) {
