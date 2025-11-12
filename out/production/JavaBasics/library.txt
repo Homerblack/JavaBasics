@@ -1,0 +1,31 @@
+6. Library Book Manager (basic)
+   - Store titles and authors, allow searching by name.
+   - Covers: arrays, string operations.
+
+
+
+about the library program
+------------------------------
+I enter to the library
+there should be welcome message
+------------------------------------
+Welcome to the library
+------------------------------------
+
+There there should be the search button or search of some kind so than i can search for the books but A to Z
+
+-------------------------------------------------
+
+i think i need some kind of csv file where there is all the list of books name aurthor and book list
+then i can read that through java and and set the title names and to constructor and then finally i can
+make UI for seraching the stored data
+
+then upon searching the visitor should be able to find what kind of book he is looking for
+
+-------------------------------------------------------------
+
+
+and ofcourse i will take the user input like to make them a member and
+only member can access to the library or i will make the feature like guest cannot rent books only members can
+
+

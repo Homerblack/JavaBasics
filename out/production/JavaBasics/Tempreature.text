@@ -1,0 +1,30 @@
+Tempreatures
+
+1:Fahrenheit
+2:Celsius
+3:kelvin 
+
+
+Celsius to Fahrenheit 
+F = C * 9/5 + 32
+
+
+Celsius to kelvin 
+K = °C + 273.15
+
+
+Fahrenheit to Celsius  
+C = (F - 32) ÷ (9/5)
+
+
+Fahrenheit to kelvin  
+K = (°F + 459.67) × 5/9
+
+
+kelvin  to Celsius
+°C = K - 273.15
+
+
+
+Kelvin to fahrenheit 
+°F = K * 9/5 - 459.67
