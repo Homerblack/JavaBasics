@@ -1,4 +1,4 @@
-package JavaPractise.utilities;
+package src.JavaPractise.utilities;
 
 public class Utility {
 
