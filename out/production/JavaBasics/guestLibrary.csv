@@ -1,0 +1,11 @@
+BookID,Title,Author,Category,Availability
+1,The Hobbit,J.R.R. Tolkien,Fantasy,true
+2,1984,George Orwell,Dystopian,true
+3,To Kill a Mockingbird,Harper Lee,Classic,false
+4,The Great Gatsby,F. Scott Fitzgerald,Classic,true
+5,Harry Potter and the Sorcerer's Stone,J.K. Rowling,Fantasy,false
+6,The Catcher in the Rye,J.D. Salinger,Classic,true
+7,Pride and Prejudice,Jane Austen,Romance,true
+8,Brave New World,Aldous Huxley,Dystopian,true
+9,The Alchemist,Paulo Coelho,Adventure,true
+10,The Hunger Games,Suzanne Collins,Dystopian,true
