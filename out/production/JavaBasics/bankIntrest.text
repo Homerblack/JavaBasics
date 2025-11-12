@@ -1,0 +1,21 @@
+4. Bank Interest Calculator
+   - Ask for amount, years, and interest rate → calculate total.
+   - Covers: basic math, formatted output.
+
+
+------------------------------------------------------------
+
+i need
+amount
+years
+interest rate
+
+user unput 
+check if amount and  year is integer 
+
+check if intrest rate is double 
+
+
+
+
+completed
