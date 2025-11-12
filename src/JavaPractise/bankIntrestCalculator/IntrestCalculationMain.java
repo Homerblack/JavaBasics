@@ -1,4 +1,4 @@
-package JavaPractise.bankIntrestCalculator;
+package src.JavaPractise.bankIntrestCalculator;
 
 import java.util.Scanner;
 
