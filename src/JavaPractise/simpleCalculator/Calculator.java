@@ -1,9 +1,9 @@
-package JavaPractise.simpleCalculator;
+package src.JavaPractise.simpleCalculator;
 
 import java.util.HashMap;
 import java.util.Scanner;
 
-import JavaPractise.utilities.Utility;
+import src.JavaPractise.utilities.Utility;
 
 public class Calculator {
 
