@@ -4,7 +4,8 @@ public class MainInterfaces {
     
     public String star = "***********************************************************************************";
     public String hifun = "-----------------------------------------------------------------------------------";
-
+    public String space = "                                                                                    ";
+    public String message = "Program Started";
 
     
 
